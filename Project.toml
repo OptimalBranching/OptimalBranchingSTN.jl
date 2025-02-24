@@ -3,7 +3,14 @@ uuid = "7c04d9f1-680d-4e5e-814a-5309a9885dea"
 authors = ["XuanzhaoGao <arrogantgao@outlook.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+OMEinsum = "ebe7aa44-baf0-506c-a96f-8464559b3922"
+OptimalBranchingCore = "c76e7b22-e1d2-40e8-b0f1-f659837787b8"
+
 [compat]
+Graphs = "1.12.0"
+OMEinsum = "0.8.4"
 julia = "1.6.7"
 
 [extras]
